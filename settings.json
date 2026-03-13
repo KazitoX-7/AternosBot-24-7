@@ -1,14 +1,14 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "BOT-24/7",
+    "username": "BOT47",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "OrbitXSMP-ik3S.aternos.me",
     "port": 11646,
-    "version": "",
+    "version": "1.21.1",
     "try-creative": false
   },
   "position": {
@@ -19,25 +19,25 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "KAZITOXSOLOS"
+      "enabled": false,
+      "password": "KAZITOXSOLOS7"
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
       "repeat-delay": ,
       "messages": [
-        "I'm a bot player",
+        "I'm a bot",
         "Subscribe to KAZITOX!",
         "I HOPE YOU LIKE YOUR 24/7 SERVER!"
       ]
     },
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000,
     "periodic-rejoin": {
@@ -58,7 +58,7 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 100
     }
   },
